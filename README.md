@@ -11,9 +11,14 @@ What is AOP?
 
 * Aspects have responsibility they are meant to discharge. This responsibility of an aspect is called advice. An aspect's functionality is woven into a program's execution at one or more join points
 
-* In addition to describing the responsibility that an aspect will discharge, advice addresses the question of when to discharge this responsibility. Spring aspects can work with five kinds of advice:
-    * Before - the advice functionality takes place before the advised method is invoked.
-    * After - the advice functionality takes place after the advised method completes, regardless of the outcome.
-    * AfterReturning - returning the advice functionality takes place after the advised method successfully completes.
-    * AfterThrowing - throwing the advice functionality takes place after the advised method throws an exception.
-    * Around - the advice wraps the advised method, providing some functionality before and after the advised method is invoked.
+  * In addition to describing the responsibility that an aspect will discharge, advice addresses the question of when to discharge this responsibility. Spring aspects can work with five kinds of advice:
+      * #### Before - ####  
+        the advice functionality takes place before the advised method is invoked.
+      * #### After - #### 
+        the advice functionality takes place after the advised method completes, regardless of the outcome.
+      * #### AfterReturning - #### 
+        returning the advice functionality takes place after the advised method successfully completes.
+      * #### AfterThrowing - #### 
+        throwing the advice functionality takes place after the advised method throws an exception.
+      * #### Around - #### 
+        the advice wraps the advised method, providing some functionality before and after the advised method is invoked.
